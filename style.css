@@ -19,6 +19,9 @@ img#img1{
     /* width:50%; */
     margin: 100px 100px;
 }
+th, td {
+   border: 1px black;
+}
 /* table#specs{ 
     border:10px solid black;
 }
