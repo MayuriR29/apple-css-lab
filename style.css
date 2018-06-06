@@ -1,4 +1,6 @@
-
+body{
+    width:980px;
+}
 div#banner{
     float:right;
     /* margin: 100px 100px; */
