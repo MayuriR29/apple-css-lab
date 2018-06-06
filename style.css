@@ -1,32 +1,26 @@
 body{
     width:980px;
+    background-color:#F1F1F1;
+    margin:5px 120px;
+    font-family: sans-serif;
+    font:#666666;
+    border:1px solid black;
 }
 div#banner{
-    float:right;
-    /* margin: 100px 100px; */
-    
+background-image: url("images/hero.png");
+height:670px;
+background-repeat:no-repeat;
+padding: 40px;
 }
-div#content{
-    /* margin-right:100px auto; */
-    margin:10px 50px 10px 50px;
-    width:980px;
-    border:5px #AAAAAA;
-    /* background-color:white; */
+#banner,h1,h2{
+    text-align: right;
 }
 .section{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
-img#img1{
-    /* width:50%; */
-    margin: 100px 100px;
-}
-th, td {
-   border: 1px black;
-}
-/* table#specs{ 
-    border:10px solid black;
-}
-/* .section{ 
-    background: white;
-}*/
+ tr,td,th{
+     border:1px solid black;
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
