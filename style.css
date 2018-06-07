@@ -4,7 +4,7 @@ body {
     margin: 5px 150px;
     font-family: sans-serif;
     font: #666666;
-    border: 1px solid #AAAAAA;
+    border: 1px solid rgb(222,222,222);
 }
 
 div#banner {
@@ -12,24 +12,27 @@ div#banner {
     background-color: #F1F1F1;
     height: 670px;
     background-repeat: no-repeat;
+    background-size:     cover;
     padding: 40px;
 }
 
 #banner, h1, h2 {
     text-align: right;
 }
-
 .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin:20px;
 }
 
 table{
     border-collapse: collapse;
-    background-color: #F1F1F1;
+    background-color: #F1F1F1; 
+    margin :20px 10px;
+    
 }
 
 tr, td, th {
-    border: 1px solid #AAAAAA;
+    border: 1px solid rgb(222,222,222);
     
 }
