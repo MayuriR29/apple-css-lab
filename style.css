@@ -1,26 +1,35 @@
-body{
-    width:980px;
-    background-color:#F1F1F1;
-    margin:5px 120px;
+body {
+    width: 980px;
+    background-color: #F1F1F1;
+    margin: 5px 150px;
     font-family: sans-serif;
-    font:#666666;
-    border:1px solid black;
+    font: #666666;
+    border: 1px solid #AAAAAA;
 }
-div#banner{
-background-image: url("images/hero.png");
-height:670px;
-background-repeat:no-repeat;
-padding: 40px;
+
+div#banner {
+    background-image: url("images/hero.png");
+    background-color: #F1F1F1;
+    height: 670px;
+    background-repeat: no-repeat;
+    padding: 40px;
 }
-#banner,h1,h2{
+
+#banner, h1, h2 {
     text-align: right;
 }
-.section{
-    display:grid;
+
+.section {
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
- tr,td,th{
-     border:1px solid black;
-     border-collapse: collapse;
-     border-spacing: 0;
- }
+
+table{
+    border-collapse: collapse;
+    background-color: #F1F1F1;
+}
+
+tr, td, th {
+    border: 1px solid #AAAAAA;
+    
+}
